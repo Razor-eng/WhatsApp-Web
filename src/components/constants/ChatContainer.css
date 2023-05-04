@@ -82,3 +82,24 @@
   position: absolute !important;
   top: -455px;
 }
+
+@media only screen and (max-width: 440px) {
+  .attach {
+    display: none;
+  }
+  .Chat-container {
+    min-width: 70%;
+  }
+  .chat-input-send-btn {
+    width: 12%;
+    height: 80%;
+  }
+  .chat-input-send-btn > .MuiSvgIcon-root {
+    font-size: 15px;
+  }
+  .chat-input > form > input {
+    position: relative;
+    left: -18px;
+    width: 100%;
+  }
+}

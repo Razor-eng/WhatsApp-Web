@@ -102,7 +102,9 @@ function ChatContainer({ currentUser }) {
                 {openEmojiBox && <Picker onEmojiClick={(event, emojiObject) => setMessage(message + event.emoji)} />}
                 <div className="chat-input-btn">
                     <InsertEmoticon onClick={() => setOpenEmojiBox(!openEmojiBox)} />
-                    <AttachFile />
+                    <div className='attach'>
+                        <AttachFile />
+                    </div>
                 </div>
                 <form onSubmit={send}>
                     <input type="text" placeholder='Type a Message' value={message} onChange={(e) => setMessage(e.target.value)} />

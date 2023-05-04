@@ -30,3 +30,9 @@
   color: gray;
   font-weight: 400;
 }
+
+@media only screen and (max-width: 490px) {
+  .user-profile {
+    flex-direction: column;
+  }
+}

@@ -59,3 +59,12 @@
 .login-btn:hover {
   background-color: #028916;
 }
+
+@media only screen and (max-width: 400px) {
+  .login {
+    width: 100%;
+  }
+  .login-container {
+    width: 100%;
+  }
+}

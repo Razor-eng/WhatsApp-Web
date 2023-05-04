@@ -79,3 +79,20 @@
   flex-direction: column;
   overflow-y: scroll;
 }
+
+@media only screen and (max-width: 650px) {
+  .sidebar-header-btn {
+    display: none;
+  }
+  .sidebar-search-input {
+    width: 100%;
+  }
+  .sidebar {
+    min-width: 20%;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .sidebar-header-name {
+    display: none;
+  }
+}
