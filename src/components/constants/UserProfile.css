@@ -1,0 +1,32 @@
+.user-profile {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+.user-profile:hover {
+  background-color: lightgray;
+}
+.user-image {
+  width: 45px;
+}
+.user-image > .MuiAvatar-root {
+  width: 100%;
+}
+.user-info {
+  flex: 1;
+  text-align: left;
+  margin-left: 10px;
+}
+.user-name {
+  text-transform: capitalize;
+  font-size: 15px;
+}
+.user-last-message {
+  font-size: 11px;
+  margin-left: 1px;
+  margin-top: 2px;
+  color: gray;
+  font-weight: 400;
+}
